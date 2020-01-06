@@ -1,0 +1,87 @@
+.mensager{
+    padding: 10px;
+    background-color: thistle;
+
+}
+
+.img-msg {
+    align-self: flex-start;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.narrador {
+    align-self: center;
+    background-color: turquoise;
+    width: 80%;
+    border-radius: 10px;
+    margin:10px 0px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.narrador-ident {
+    background-color: violet;
+    padding: 5px;
+    align-self: center;
+    margin-bottom: -10px;
+    border-radius: 10px;    
+}
+
+.action {
+    background-color: rgb(119, 18, 18);
+    padding: 5px;
+    align-self: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.container-player {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.img-player {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.player {    
+    margin-right: 5px;
+    background-color: rgb(15, 105, 42);
+    width: 70%;
+    border-radius: 10px;
+    margin-top:10px;
+    padding: 5px;
+    text-align: right;
+    color: white;
+}
+
+.container-npc {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.img-npc {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.npc {    
+    margin-right: 5px;
+    background-color: rgb(140, 14, 224);
+    width: 70%;
+    border-radius: 10px;
+    margin-top:10px;
+    padding: 5px;
+    text-align: right;
+    color: white;
+}

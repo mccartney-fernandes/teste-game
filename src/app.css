@@ -1,0 +1,44 @@
+.container {
+    height: 70vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tela {
+    width: 60vw;
+    height: 60vh;
+    background-color: blueviolet;
+}
+
+.header-tela {
+    background-color: brown;
+    height: 8vh;
+}
+
+.tela-jogo {
+    background-color: rgb(204, 121, 121);
+    height: 42vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.footer-tela {
+    background-color: rgb(39, 8, 151);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.input-jogo {
+    height: 20px;
+    width: 70%;
+    margin-left: 5px;
+}
+
+.button-jogo {
+    margin-left: 5px;
+}
